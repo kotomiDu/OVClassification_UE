@@ -26,14 +26,16 @@ AI classification demo in Unreal Engine based on Intel OpenVINO (Real-time CPU i
 
 ## Clarification
 > This project is a modified version based on [ Intel OpenVINO™ Toolkit Unreal* Integration project](https://www.intel.com/content/www/us/en/developer/articles/technical/openvino-toolkit-unreal-integration.html) which is not runnable.
+
 Here is the details of modification.
 1. Upgrade project to UE4.27 version 
 2. Upgrade OpenVINO version from `2019.2` to `2021.4.2`
 3. Upgrade classifcation IR model version to `2021.4.2`
 4. Upgrade inference api in OpenVINOWapper project
+5. Add `TopResult` function in OpenVINOWapper project
 
 ## Build self-ego OpenVINOWapper for your AI projects.
-> We recommended you don't create the project from scratch, but based on the current OpenVINOWrapper project under [Thirdparty Folder](OVClassification\Plugins\OpenVinoPlugin\Source\ThirdParty\OpenVinoWrapper)
+> We recommended you don't create the project from scratch, but based on the current OpenVINOWrapper project under [Thirdparty Folder](https://github.com/kotomiDu/OVClassification_UE/tree/main/Plugins/OpenVinoPlugin/Source/ThirdParty/OpenVinoWrapper)
 1. Download and set `OpenVINO library` as system environment path, Details in [OpenVINO Guide](#OpenVINO-Guide)
 2. Go to `Thirdparty Folder`
 3. use command line `cmake . ` , this is used to generete `OpenVinoWrapper.sln` and copy `openvino related library` to `Thirdparty Folder`
