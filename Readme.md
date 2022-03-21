@@ -8,7 +8,7 @@ AI classification demo in Unreal Engine based on Intel OpenVINO (Real-time CPU i
 * Visual Studio 2019
 * OpenVINO 2021.4.2 LST version
 
-## Fast build for `OVClassification.exe`
+## Fast build for OVClassification app
 * Right click `OVClassification.uproject`, click `generate visual studio project file`, then `OVClassification.sln` is appeared
 
 * Open `OVClassification.sln` project, select `Development Editor` mode , then build project 
@@ -16,9 +16,9 @@ AI classification demo in Unreal Engine based on Intel OpenVINO (Real-time CPU i
 
 * Open `OVClassification.uproject`, go to menu `File-> Project Launcher -> Windows(64-bit)`
 
-* Choose `folder\for\Release project`, waiting for the compiling result
+* Create a folder for Release project, waiting for the compiling result
 
-* Go to `folder\for\Release project`, run `Level1.exe -WINDOWED` 
+* Go to `folder\for\Release project`, run `Level1.exe -WINDOWED` ssss
 
 * Enjoy Your Demo! ^_^
 
