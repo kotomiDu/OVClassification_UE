@@ -1,0 +1,11 @@
+*.cmake
+CMakeCache.txt
+CMakeSettings.json
+
+CMakeFiles/
+out/
+x64/
+OpenVinoWrapper.dir/
+Debug/
+Release/
+*.vcxproj*
